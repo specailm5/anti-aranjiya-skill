@@ -341,24 +341,9 @@ graph TD
 
 ---
 
-## ٦. أداة الفحص والتدقيق الآلي (Automated Linter)
-
-تتضمن المهارة أداة تدقيق آلية مكتوبة بلغة Python لفحص أي ملف نصي أو مقال واكتشاف شواهد العرنجية تلقائياً واقتراح البدائل الفصيحة:
-
-```bash
-# فحص ملف نصي أو تقرير:
-python scripts/lint_aranjiya.py path/to/document.md
-
-# فحص نص مباشر عبر الطرفية:
-python scripts/lint_aranjiya.py --text "قام الوزير بزيارة إلى المدينة بهدف وضع حد للأزمة."
-```
-
----
-
-## ٧. مراجع تفصيلية ملحقة (Skill References)
+## ٦. مراجع تفصيلية ملحقة (Skill References)
 
 للتوسع ومطالعة مئات الأمثلة والتحويلات المسردة:
 - [معجم الألفاظ والتعابير العرنجية وبدائلها الفصيحة](file:///c:/Users/saif1/Desktop/arabic_writing_skill/references/vocabulary_and_idioms.md)
 - [سجل التحويلات الأسلوبية والنحوية المتقدمة](file:///c:/Users/saif1/Desktop/arabic_writing_skill/references/stylistic_patterns.md)
 - [نماذج وفقرات كاملة قبل وبعد التحوير الفصيح](file:///c:/Users/saif1/Desktop/arabic_writing_skill/examples/before_after_texts.md)
-
