@@ -1,4 +1,4 @@
-:root{--ink:#141B2E;--ink2:#39415C;--paper:#F1F0EB;--card:#FBFAF6;--lapis:#16233D;--rubric:#9B2C22;--gold:#A8823C;--rule:#D9D6CB}
+:root{--ink:#141B2E;--ink2:#39415C;--paper:#F1F0EB;--card:#FBFAF6;--lapis:#16233D;--rubric:#9B2C22;--gold:#A8823C;--gold-ink:#C09A45;--rule:#D9D6CB}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:'Amiri','Noto Naskh Arabic','Traditional Arabic',Georgia,serif;font-size:1.125rem;line-height:1.95}
@@ -11,14 +11,14 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:'Amiri','Noto
 .bar nav a:hover{color:#fff;background:rgba(255,255,255,.09)}
 .bar nav a[aria-current=page]{color:#fff;box-shadow:inset 0 -2px 0 var(--gold)}
 .hero{padding:3.2rem 1.35rem 3rem}
-.eyebrow{font-family:'Reem Kufi',system-ui,sans-serif;font-size:.78rem;letter-spacing:.14em;color:var(--gold);margin:0 0 .7rem;text-transform:uppercase}
+.eyebrow{font-family:'Reem Kufi',system-ui,sans-serif;font-size:.78rem;letter-spacing:.14em;color:var(--gold-ink);margin:0 0 .7rem;text-transform:uppercase}
 .hero h1{font-family:'Reem Kufi',system-ui,sans-serif;font-size:clamp(1.7rem,4.4vw,2.7rem);line-height:1.4;margin:0 0 .8rem;color:#fff;font-weight:600}
 .lede{font-size:1.1rem;color:#C6CDDD;margin:0;max-width:62ch;line-height:1.9}
 .pair{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.9rem;font-size:clamp(1.15rem,2.6vw,1.5rem)}
 .pair .side{display:inline-flex;align-items:center;gap:.55rem}
 .pair del{color:#E9A79E;text-decoration-color:var(--rubric);text-decoration-thickness:2px}
 .pair ins{color:#fff;font-weight:700;text-decoration:none}
-.pair .arrow{color:var(--gold);font-size:1.15rem}
+.pair .arrow{color:var(--gold-ink);font-size:1.15rem}
 .tag{font-family:'Reem Kufi',system-ui,sans-serif;font-size:.64rem;letter-spacing:.09em;padding:.12rem .45rem;border:1px solid currentColor;border-radius:2px}
 .tag-bad{color:#E9A79E}.tag-good{color:#D8C08A}
 main{padding:3rem 0 1rem}
