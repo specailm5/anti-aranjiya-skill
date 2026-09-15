@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://specailm5.github.io/anti-aranjiya-skill/sitemap.xml

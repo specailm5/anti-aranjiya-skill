@@ -1,6 +1,10 @@
 # مهارة الكتابة العربية الفصيحة ونبذ العَرَنْجِيَّة
 ### (Anti-Aranjiya Arabic Writing Skill)
 
+**Arabic writing skill for AI agents** — strips English calques and translated phraseology (العَرَنْجِيَّة) from Arabic text: `قام بزيارة` → `زار`, `تم التوقيع بواسطة` → `وقّع`. Works with Claude Code, Codex, Antigravity and VS Code agent harnesses.
+
+🔗 **الموقع المرجعي (المعجم والتراكيب والنماذج): [specailm5.github.io/anti-aranjiya-skill](https://specailm5.github.io/anti-aranjiya-skill/)**
+
 > مهارة برمجية ولغوية احترافية لنماذج الذكاء الاصطناعي والمحررات الذكية (Codex، Claude Code، Antigravity IDE، VS Code Agent Harness) لتدقيق النصوص والترجمات العربية وتخليصها من **«العَرَنْجِيَّة»** (الأساليب والتراكيب الإفرنجية المترجمة حرفياً)، استناداً إلى كتاب **«العَرَنْجِيَّة: بلغات أعجمية وألسن عربية»** للترجمان **أحمد الغامدي**.
 
 ---
