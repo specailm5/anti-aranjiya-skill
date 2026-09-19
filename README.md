@@ -1,9 +1,9 @@
 # مهارة الكتابة العربية الفصيحة ونبذ العَرَنْجِيَّة
-### (Anti-Aranjiya Arabic Writing Skill)
+### (Arabic Writing Skill — Anti-Aranjiya)
 
 **Arabic writing skill for AI agents** — strips English calques and translated phraseology (العَرَنْجِيَّة) from Arabic text: `قام بزيارة` → `زار`, `تم التوقيع بواسطة` → `وقّع`. Works with Claude Code, Codex, Antigravity and VS Code agent harnesses.
 
-🔗 **الموقع المرجعي (المعجم والتراكيب والنماذج): [specailm5.github.io/anti-aranjiya-skill](https://specailm5.github.io/anti-aranjiya-skill/)**
+🔗 **الموقع المرجعي (المعجم والتراكيب والنماذج): [specailm5.github.io/arabic-writing-skill](https://specailm5.github.io/arabic-writing-skill/)**
 
 > مهارة برمجية ولغوية احترافية لنماذج الذكاء الاصطناعي والمحررات الذكية (Codex، Claude Code، Antigravity IDE، VS Code Agent Harness) لتدقيق النصوص والترجمات العربية وتخليصها من **«العَرَنْجِيَّة»** (الأساليب والتراكيب الإفرنجية المترجمة حرفياً)، استناداً إلى كتاب **«العَرَنْجِيَّة: بلغات أعجمية وألسن عربية»** للترجمان **أحمد الغامدي**.
 
@@ -50,31 +50,31 @@ arabic_writing_skill/
 #### لنظام Windows (PowerShell):
 ```powershell
 # 1. تثبيت لبيئة Claude Code
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\anti-aranjiya-arabic-writing"
-Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.claude\skills\anti-aranjiya-arabic-writing\"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\arabic-writing-skill"
+Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.claude\skills\arabic-writing-skill\"
 
 # 2. تثبيت لبيئة Codex و Agent Skills العامة
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills\anti-aranjiya-arabic-writing"
-Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.agents\skills\anti-aranjiya-arabic-writing\"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills\arabic-writing-skill"
+Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.agents\skills\arabic-writing-skill\"
 
 # 3. تثبيت لبيئة Google Antigravity / Gemini
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.gemini\config\skills\anti-aranjiya-arabic-writing"
-Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.gemini\config\skills\anti-aranjiya-arabic-writing\"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.gemini\config\skills\arabic-writing-skill"
+Copy-Item -Recurse -Force "SKILL.md", "references", "examples" "$env:USERPROFILE\.gemini\config\skills\arabic-writing-skill\"
 ```
 
 #### لنظام macOS / Linux (Bash):
 ```bash
 # 1. لبيئة Claude Code
-mkdir -p ~/.claude/skills/anti-aranjiya-arabic-writing
-cp -r SKILL.md references examples ~/.claude/skills/anti-aranjiya-arabic-writing/
+mkdir -p ~/.claude/skills/arabic-writing-skill
+cp -r SKILL.md references examples ~/.claude/skills/arabic-writing-skill/
 
 # 2. لبيئة Codex و Agent Harness
-mkdir -p ~/.agents/skills/anti-aranjiya-arabic-writing
-cp -r SKILL.md references examples ~/.agents/skills/anti-aranjiya-arabic-writing/
+mkdir -p ~/.agents/skills/arabic-writing-skill
+cp -r SKILL.md references examples ~/.agents/skills/arabic-writing-skill/
 
 # 3. لبيئة Antigravity / Gemini
-mkdir -p ~/.gemini/config/skills/anti-aranjiya-arabic-writing
-cp -r SKILL.md references examples ~/.gemini/config/skills/anti-aranjiya-arabic-writing/
+mkdir -p ~/.gemini/config/skills/arabic-writing-skill
+cp -r SKILL.md references examples ~/.gemini/config/skills/arabic-writing-skill/
 ```
 
 ---
@@ -86,8 +86,8 @@ cp -r SKILL.md references examples ~/.gemini/config/skills/anti-aranjiya-arabic-
 1. انسخ مجلد المهارة داخل مجلد `.agents/skills/` أو `.claude/skills/` في جذر مشروعك:
 ```powershell
 # داخل مجلد مشروعك الحالي:
-New-Item -ItemType Directory -Force -Path ".agents\skills\anti-aranjiya-arabic-writing"
-Copy-Item -Recurse -Force "path\to\SKILL.md", "path\to\references", "path\to\examples" ".agents\skills\anti-aranjiya-arabic-writing\"
+New-Item -ItemType Directory -Force -Path ".agents\skills\arabic-writing-skill"
+Copy-Item -Recurse -Force "path\to\SKILL.md", "path\to\references", "path\to\examples" ".agents\skills\arabic-writing-skill\"
 ```
 
 2. بمجرد فتح المشروع في **VS Code** أو تشغيل `Claude Code` / `Codex`، سيتم اكتشاف المهارة وقراءتها تلقائياً عند صياغة أي نص أو كود باللغة العربية.
